@@ -1,0 +1,485 @@
+body{
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+  
+}
+
+.main{
+    background:  linear-gradient(rgba(0,0,0, 0.5),rgba(0,0,0,0.5)) , url('https://images.pexels.com/photos/5905700/pexels-photo-5905700.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500 500w, https://images.pexels.com/photos/5905700/pexels-photo-5905700.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500 1000w');
+    background-position: center;
+    background-size: cover;
+    height: 111%;
+    
+
+}
+
+.nav-bar{
+    position: sticky;
+    top: 0;
+    display: flex;
+    height: 55px; 
+    background-color: rgb(65, 64, 64);
+    
+}
+
+.logo{
+    color: white;
+}
+
+.nav-left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    width: 77%;
+    margin: 3px 15px;
+}
+
+.nav-menu{
+    display: flex;
+    padding-top: 9px;
+    margin: 0px 43px;
+}
+
+.nav-menu li{
+    height: 33px;
+    list-style: none;
+    padding: 14px 23px;
+}
+
+.nav-menu li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    padding: 3px 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+.nav-menu li a:hover{
+    opacity: 0.5;
+}
+
+.nav-right{
+    margin: 15px 10px;
+}
+
+.nav-right input{
+    padding: 6px 5px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    background-color: rgb(250, 250, 250);
+}
+
+.btn-sm{
+    padding: 2px 8px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.356);
+    color: white;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 3%;
+    top: 10px;
+
+}
+
+.line{
+    width: 20px;
+    background-color: white;
+    height: 3px;
+    margin: 4px 5px;
+}
+
+.intro{
+    text-align: center;
+    color: whitesmoke;
+    padding: 155px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+       
+}
+
+.heading{
+    font-size: 32px;
+    margin: 14px;
+}
+
+.para{
+    font-size: 17px;
+}
+
+.btn{
+    padding: 5px 22px;
+    border: none;
+     border-radius: 4px; 
+     background-color: royalblue;
+    color: whitesmoke;
+    cursor: pointer;
+   margin: 22px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.btn:hover{
+    background-color: blue;
+}
+
+.para{
+       margin: -11px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+  /* Now designing our first section part! */
+
+  .first{ 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   max-width: 80%;
+   margin: auto;
+   margin-top: 75px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+.image1{
+    width: 134px;
+    height: 130px;
+    border: 1px solid gray;
+    border-radius: 12px;
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 75px;
+}
+
+.written{
+    max-width: 76%;
+    margin: 0px 40px;
+}
+
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 75px;
+}
+
+
+/* Now we will design contact form */
+
+
+
+.sect1{
+    margin-top: 150px;
+    text-align: center;
+    background-color: gainsboro;
+    height: 440px;
+}
+
+.sect1 h2{
+    margin: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 480px;
+    margin: 17px auto;
+    text-align: center;
+}
+
+.form input{
+    width: 100%;
+    padding: 7px 10px;
+    margin: 8px 2px;
+    border: 2px none;
+    border-radius: 5px
+}
+
+#problem{
+    width: 100%;
+    max-width: 484px;
+    border: 2px none;
+    border-radius: 4px;
+    padding: 1px 9px;
+    margin: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-form{
+    margin: 12px auto;
+    padding: 5px 15px;
+    cursor: pointer;
+    background-color: blue;
+    opacity: 0.7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px none;
+    border-radius: 4px;
+    color: whitesmoke;
+}
+.btn-form:hover{
+    opacity: 1;
+}
+
+/* Now we will design our footer */
+
+#footer{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* Now we will apply media queries to make responsive design*/
+
+
+ @media screen and (max-width: 1265px) 
+{
+    .nav-right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } 
+    .btn-sm{
+        margin: 0px 4px;
+    }   
+}
+
+
+@media screen and (max-width: 977px)
+{
+    .main{
+        background-size: contain cover ;
+        background-repeat: no-repeat;
+        background-position: top;
+        height: auto;
+    }
+  .nav-left{
+    margin: 0px 3px;
+  }
+
+} 
+
+@media screen and (max-width: 941px) and (min-width:898px)
+{
+ .nav-menu{
+     font-size: 12.9px;
+     padding-top: 12px;
+ }
+
+}
+
+@media only screen and (max-width: 898px)
+
+{
+   .nav-menu, .nav-left{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        align-items: center;
+        transition: all .5s ease-out;
+        height: 370px;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .h-nav-resp{
+        height: 40px;
+    }
+    .v-resp{
+        opacity: 0;
+    }
+
+    .intro{
+        padding: 60px;
+    }
+
+    .heading{
+        font-size: 21px;
+    }
+
+    .para{
+        font-size: 14px;
+    }
+    .btn{
+        font-size: 12px;
+        padding: 5px 11px;
+    }
+    
+    
+
+}
+
+@media only screen and (max-width:536px)
+{
+
+.intro{
+      padding: 95px;
+}
+.para{
+     font-size: 11px;
+     padding: 4px 4px;
+}
+.written{
+    font-size: 12px;
+}
+
+#footer{
+    font-size: 12px;
+}
+.nav-bar{
+    font-size: 14px;
+}
+
+
+
+}
+
+@media only screen and (max-width:480px)
+{
+   
+  .written{
+      font-size: 10px;
+  }
+
+  .nav-bar{
+      font-size: 12px;
+  }
+
+  .para{
+      font-size: 11px;
+      width: auto;
+  }
+  .heading{
+      font-size: 17px;
+  }
+
+  
+
+  .form{
+      width: 238px;
+  }
+
+  #problem{
+      width: 237px;
+  }
+  #footer{
+    font-size: 10px;
+
+}
+
+@media only screen and (max-width: 396px){
+    .intro{
+        padding: 15px;
+    }
+    
+}
+
+@media only screen and (min-width:270px) and (max-width:396px)
+{
+     .main{
+         background-position: top;
+         background-size: contain cover;
+         background-repeat: no-repeat;
+         height: auto;
+        
+     }
+
+    .heading{
+        font-size: 14px;
+    }
+    .para{
+        font-size: 9px;
+    }
+     
+    .btn{
+        padding: 3px 7px;
+        font-size: 9px;
+    }
+
+  .first{
+      flex-direction: column-reverse;
+  }
+  .second{
+      flex-direction: column;
+  }
+  .third{
+       flex-direction: column-reverse;
+
+  }
+
+  .sect1 h2{
+      font-size: 15px;
+  }
+  #footer{
+      font-size: 8px;
+  }
+
+  .nav-menu{
+      font-size: 10px;
+      
+  }
+  .nav-bar{
+      height: 270px;
+      transition: all 0.5s ease-out;
+  }
+
+  .nav-menu li{
+      padding: 1px;
+  }
+  .burger{
+    display: block;
+ }
+
+ .h-nav-resp{
+    height: 40px;
+ }
+ .v-resp{
+    opacity: 0;
+ }
+
+ .nav-right{
+    display: flex;
+    flex-direction: column;
+    ;
+ }
+
+ .btn-sm{
+    margin: 4px
+ }
+
+ 
+}
+ 
